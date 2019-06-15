@@ -1,4 +1,4 @@
-
+#!/usr/bin/perl 
 use Getopt::Long;
 print "Enter the Count\n";
 my $count=<STDIN>;

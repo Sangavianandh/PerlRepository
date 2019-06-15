@@ -6,6 +6,7 @@ my $input;
 my $input1;
 my $repeated=0;
 my $dupe=0;
+my @array1;
 print "Enter the count=";
 my $count=<STDIN>;
 for($input=0;$input < $count;$input++)
@@ -22,13 +23,9 @@ $repeated++;
 $array[$input]='*';
 }
 }
-unless($repeated==0)
-{
+print "$array[$input]=$repeated;
 $repeated=0;
+
 }
-else
-{
-$dupe++;
-}
-}
-print "unique element=$dupe";
+ @array1=sort(@array);
+print "@array1";

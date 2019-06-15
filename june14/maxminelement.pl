@@ -1,3 +1,4 @@
+#!/usr/bin/perl 
 use List::Util qw(min max);
 my @arr;
 print"Enter the count=";
