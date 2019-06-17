@@ -14,7 +14,6 @@ for($input=0;$input <= $count;$input++)
 $array[$input]=<STDIN>;
 } 
 
-
 for($input=0;$input <=$count; $input++)
 {
 for($input1=$input+1 ; $input1 <=$count; $input1++)
