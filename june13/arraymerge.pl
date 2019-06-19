@@ -1,0 +1,10 @@
+use strict;
+use warnings;
+print "Enter the string1: ";
+my $str1=<STDIN>;
+print "Enter the string2: ";
+my $str2=<STDIN>;
+my @arr1=split(" ",$str1);
+my @arr2=split(" ",$str2);
+my @merge = (@arr1, @arr2); 
+print "@merge\n";
